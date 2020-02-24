@@ -1,0 +1,4 @@
+- client 資料夾是大部分的 code，用 React 撰寫，所以需要一些前端知識
+- crawler 是當初爬蟲，包含爬 Google Map 資訊的一些 code，用了 js 接入 python，之後會存靜態數據，指令為 node app.js
+- 由於需要串接智能合約(很簡單串接)，所以使用 Truffle，這邊需要 Google 一下，這邊有一點小麻煩，不過如果只是要做資料視覺化可以忽略，然後在 Client 的資料夾下面，需要看一下 web3.js 的一些介接，如果不需要可以拿掉
+- 有需要填入 Google map key 的地方，因為 Google Map Api 需要錢，所以需要自己申請下，替換上去才能使用。分別在 client 的 .env.development/production 的環境設定，以及 crawler app 底下需要 key 入的參數
