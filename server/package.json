@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "@google/maps": "^0.5.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "image-downloader": "^2.0.0",
     "jsonfile": "^2.4.0",
     "superagent": "^2.3.0",
